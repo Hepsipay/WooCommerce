@@ -1,0 +1,47 @@
+.taksit-area {
+    width:100%;
+    overflow-x:auto;
+    padding:10px 0;
+    display:none;
+}
+
+.taksit-table {
+    width:100%;min-width:100%;
+    border: 1px solid #eee;
+    display: table;
+    border-style: none solid solid none;
+}
+
+.taksit-table .tr { display: table-row; width: 100%; }
+.taksit-table .tr.odd {background-color: #fff;}
+.taksit-table .tr.even {background-color: #f9f9f9;}
+
+
+.taksit-table .td {
+    text-align:center;
+    display:table-cell;
+    width:auto;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    border-style: solid none none solid;
+    min-width: 110px;
+}
+.taksit-table .head .td img {margin:auto;}
+.taksit-table .td.empty { }
+.taksit-table .td.data {  }
+.taksit-table .td.empty, .taksit-table .td.disabled label{ color: #888; cursor:not-allowed;opacity: .7; }
+.taksit-table .odd .td.disabled { background-color: #f0f0f0; }
+.taksit-table .even .td.disabled { background-color: #eeeeee; }
+
+.taksit-table .td.active{ color: #eee; background-color: #26a69a; }
+.taksit-table .td.active strong {color:#fff;}
+.taksit-table .td.selected, .taksit-table .td.active.selected { color: #fff; background-color: #1B746C; }
+.taksit-table .td label {display:block;padding:15px;cursor:pointer; }
+.taksit-table .td p {margin:0;font-weight:400; }
+
+#hepsipay-payment-options, .hepsipay-3dsecure {text-align:left;}
+#hepsipay-payment-options label {display:inline-block;padding:5px 10px;border:1px solid #eee}
+#hepsipay-payment-options label.active {color: #fff; background-color: #1B746C;}
+
+.hepsipay-3dsecure label {display:inline-block;padding:5px 10px;}
+.hepsipay-3dsecure label.checked {color: #fff; background-color: #1B746C;}

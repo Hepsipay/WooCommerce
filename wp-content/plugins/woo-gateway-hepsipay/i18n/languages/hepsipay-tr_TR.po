@@ -1,0 +1,261 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-08-02 14:23+0300\n"
+"PO-Revision-Date: 2017-04-24 12:52+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. translators: Translate this to the correct language tag for your locale, see
+#. https://www.w3.org/International/articles/language-tags/ for reference. Do
+#. not translate into your own language.
+#: wp-includes/general-template.php:716
+msgid "html_lang_attribute"
+msgstr "tr-TR"
+
+#. translators: 'rtl' or 'ltr'. This sets the text direction for WordPress.
+#: wp-includes/class-wp-locale.php:230
+msgctxt "text direction"
+msgid "ltr"
+msgstr "ltr"
+
+#: src/WC_Gateway_Hepsipay.php:31
+msgid "Hepsipay"
+msgstr "Hepsipay"
+
+#: src/WC_Gateway_Hepsipay.php:32
+msgid "Process payment via Hepsipay service."
+msgstr "Ödeme altyapısı olarak Hepsipay kullan."
+
+#: src/WC_Gateway_Hepsipay.php:33
+msgid "Proceed to Hepsipay"
+msgstr "Hepsipay ile öde"
+
+#: src/WC_Gateway_Hepsipay.php:139
+msgid "Enabled"
+msgstr "Aktif"
+
+#: src/WC_Gateway_Hepsipay.php:145
+msgid "Title"
+msgstr "Başlık"
+
+#: src/WC_Gateway_Hepsipay.php:147
+msgid "The title which the user will see in the checkout page."
+msgstr "Kullanıcılar bu başlığı ödeme sayfasında görecektir."
+
+#: src/WC_Gateway_Hepsipay.php:148
+msgid "Hepsipay Checkout"
+msgstr "Hepsipay Ödeme"
+
+#: src/WC_Gateway_Hepsipay.php:151
+msgid "Description"
+msgstr "Açıklama"
+
+#: src/WC_Gateway_Hepsipay.php:153
+msgid "The message to display during checkout."
+msgstr "Bu mesaj ödeme işlemi boyunca görüntülenecektir."
+
+#: src/WC_Gateway_Hepsipay.php:154
+msgid "Pay via Hepsipay, pay safely with your credit card."
+msgstr "Hepsipay ile öde, kredi kartınla güvenle öde."
+
+#: src/WC_Gateway_Hepsipay.php:157
+msgid "Endpoint"
+msgstr "Endpoint"
+
+#: src/WC_Gateway_Hepsipay.php:159
+msgid "The api url to \"Hepsipay\" service."
+msgstr "Hepsipay' e ait servis URL' i."
+
+#: src/WC_Gateway_Hepsipay.php:163
+msgid "ApiKey"
+msgstr "ApiKey"
+
+#: src/WC_Gateway_Hepsipay.php:169
+msgid "SecretKey"
+msgstr "SecretKey"
+
+#: src/WC_Gateway_Hepsipay.php:175
+msgid "3D Secure"
+msgstr "3D Güvenlik"
+
+#: src/WC_Gateway_Hepsipay.php:177 src/WC_Gateway_Hepsipay.php:183
+msgid "No"
+msgstr "Hayır"
+
+#: src/WC_Gateway_Hepsipay.php:177 src/WC_Gateway_Hepsipay.php:183
+msgid "Yes"
+msgstr "Evet"
+
+#: src/WC_Gateway_Hepsipay.php:178
+msgid "If 3D secure option is mandatory in Hepsipay side, this option must be enable. Otherwise your transactions will fail."
+msgstr "Hepsipay tarafından 3D secure özelliği tarafınıza zorunlu tutulduysa bu seçeneğin aktif olması gerekmektedir. Aksi takdirde işlemleriniz başarısız olacaktır."
+
+#: src/WC_Gateway_Hepsipay.php:181
+msgid "installment"
+msgstr "Taksit"
+
+#: src/WC_Gateway_Hepsipay.php:181
+msgid "Commission"
+msgstr "Komisyon"
+
+#: src/WC_Gateway_Hepsipay.php:184
+msgid "Choose whether to enable installment option."
+msgstr "Taksit özelliğini isterseniz aktif edebilirsiniz."
+
+#: src/WC_Gateway_Hepsipay.php:184
+msgid "Choose whether to enable commission option."
+msgstr "Komisyon özelliğini isterseniz aktif edebilirsiniz."
+
+#: src/WC_Gateway_Hepsipay.php:187
+msgid "Total Selector"
+msgstr "Total Seçici"
+
+#: src/WC_Gateway_Hepsipay.php:190
+msgid "A jQuery selector of the HTML element that contains the total amount in checkout page."
+msgstr "Ödeme sayfasındaki toplam fiyatı gösteren HTML elementinin jQuery seçicisi"
+
+#: src/WC_Gateway_Hepsipay.php:193
+msgid "Currency Class"
+msgstr "Para Birimi sınıfı"
+
+#: src/WC_Gateway_Hepsipay.php:196
+msgid "The CSS class(es) to be applied to the currency on checkout page"
+msgstr "Ödeme sayfasındaki para birimleri için kullanılacak CSS sınıfları"
+
+#: src/WC_Gateway_Hepsipay.php:199
+msgid "Custom Css"
+msgstr "Custom Css"
+
+#: src/WC_Gateway_Hepsipay.php:212 src/WC_Gateway_Hepsipay.php:233
+msgid "Failed to process the payment because of invalid order"
+msgstr "Hatalı sipariş, ödeme başarısız"
+
+#: src/WC_Gateway_Hepsipay.php:250
+msgid "Can not refund this order because the transaction id is missing."
+msgstr "İade başarısız, işlem ID bulunamadı."
+
+#: src/WC_Gateway_Hepsipay.php:356
+msgid "Invalid installment information."
+msgstr "Geçersiz taksit bilgisi."
+
+#: src/WC_Gateway_Hepsipay.php:379
+msgid "Invalid response received."
+msgstr "Geçersiz hata kodu."
+
+#: src/WC_Gateway_Hepsipay.php:390 src/WC_Gateway_Hepsipay.php:438
+msgid "Thank you for shopping with us. Your transaction is succeeded."
+msgstr "Alışverişinizde bizi tercih ettiğininiz için teşekkürler. İşlem başarılı."
+
+#: src/WC_Gateway_Hepsipay.php:413
+msgid "Bad request"
+msgstr "Hatalı sorgu"
+
+#: src/WC_Gateway_Hepsipay.php:428
+msgid "Order not found."
+msgstr "Sipariş bulunamadı."
+
+#: src/WC_Gateway_Hepsipay.php:430
+#, php-format
+msgid "The payment is done but your order not found. Your transaction id is \"%1$s\""
+msgstr "Ödeme başarılı fakat sipariş bulunamadı. İşlem ID  \"%1$s\""
+
+#: src/WC_Gateway_Hepsipay.php:446
+msgid "Unexpected error occured while processing your request."
+msgstr "Beklenmedik bir hata oluştu."
+
+#: src/WC_Gateway_Hepsipay.php:493
+msgid "Card holder is invalid."
+msgstr "Kart Sahibi ismi hatalı."
+
+#: src/WC_Gateway_Hepsipay.php:498
+msgid "Card number is invalid."
+msgstr "Kart numarası hatalı."
+
+#: src/WC_Gateway_Hepsipay.php:507
+msgid "The expiration date is invalid."
+msgstr "Son kullanım tarihi geçersiz."
+
+#: src/WC_Gateway_Hepsipay.php:520
+msgid "Card CVC cannot be empty."
+msgstr "Kart CVC numarası boş olamaz."
+
+#: src/WC_Gateway_Hepsipay.php:522
+msgid "Card CVC code is invalid."
+msgstr "Kart CVC numarası geçersiz."
+
+#: src/WC_Gateway_Hepsipay.php:526
+msgid "The installment value must be a positive integer."
+msgstr "The installment value must be a positive integer."
+
+#: src/views/payment-form.php:24
+msgid "Name on Card"
+msgstr "Kart Üzerindeki Ad Soyad"
+
+#: src/views/payment-form.php:25
+msgid "Card Number"
+msgstr "Kart Numarası"
+
+#: src/views/payment-form.php:28
+msgid "CVC"
+msgstr "CVC"
+
+#: src/views/payment-form.php:29
+msgid "Use 3D secure Payments System"
+msgstr "3D Secure Kullan"
+
+#: src/views/payment-form.php:31 src/views/payment-form.php:107
+msgid "Total"
+msgstr "Toplam"
+
+#: src/views/payment-form.php:74
+msgid "Month"
+msgstr "Ay"
+
+#: src/views/payment-form.php:85
+msgid "Year"
+msgstr "Yıl"
+
+#: src/views/payment-form.php:106
+msgid "Amount / Month"
+msgstr "Tutar / Ay"
+
+#: src/views/payment-form.php
+msgid "One Shot"
+msgstr "Tek Çekim"
+
+msgid "Force 3D Secure"
+msgstr "3D güvenliğini zorla"
+
+msgid "Force 3D secure for DEBIT cards"
+msgstr "DEBIT kartları için 3D güvenliğini zorla"
+
+msgid "Checkout"
+msgstr "Ödeme Yap"
+
+msgid "Transaction is succeeded."
+msgstr "İşleminiz başarıyla gerçekleşti."
+
+msgid "Choose whether to force 3D secure in debit card case."
+msgstr "Debit kartlar için 3D Secure seçeneğini zorunlu tut."
+
+msgid "Choose whether to enable 3D secure payment option."
+msgstr "3D secure seçeneğini aktif et"
+
+msgid "Validate Merchant Credentials"
+msgstr "Kimlik Bilgilerini Doğrula"
+
+msgid "Enable Installment"
+msgstr "Taksit"
+
+msgid "Enable Commission"
+msgstr "Komisyon"
